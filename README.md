@@ -2,10 +2,12 @@
 
 Backend of VPN Management Project running the backend server, serving all clients in real time using web socket technology.
 Written in Node.js using libraries such as socket.io, and express web server.
-Currently there are two json files in "data" folder ( "data.json", and "timerIntevals.json"), to persist changes
+Currently there are two json files in the "data" folder ( "data.json", and "timerIntevals.json"), to persist changes
 made by frontend react.js application. Do not change these two files manually. All the changes must be made by frontend react.js application.
 
-Pleaser refer to the demo video on project github page for full understanding of project.
+There is a separate repo called 'vpn-management-frontend' to run the front end (https://github.com/ali-sadri/vpn-management-frontend). To run the application, run the backend server (this repo) along with front end.
+
+Pleaser refer to the following demo video on for full understanding of Application (backend + frontend).
 
 ### Install dependencies
 
